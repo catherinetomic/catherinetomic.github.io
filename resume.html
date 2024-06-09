@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Homepage</title>
+    <title>Resume - My Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,23 +37,28 @@
         main {
             padding: 20px;
         }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Resume</h1>
         <nav>
+            <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
-            <a href="resume.html">Resume</a>
             <a href="projects.html">Projects</a>
             <a href="socials.html">Social Media</a>
-
         </nav>
     </header>
 
     <main>
-        <p>Welcome to my portfolio website.</p>
-        <!-- Add any introductory content here -->
+        <!-- Display the PDF using an <iframe> element -->
+        <iframe src="your_resume.pdf"></iframe>
     </main>
 </body>
 </html>
